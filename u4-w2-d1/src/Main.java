@@ -5,7 +5,21 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+//        ------------------ESERCIZIO0--------------
+        Scanner scanner2 = new Scanner(System.in);
 
+        System.out.println("Dammi un numero");
+        double num1 = scanner2.nextInt();
+        System.out.println("Dammi un altro numero");
+        double num2 = scanner2.nextInt();
+        if (num1 > num2) {
+            System.out.println("Siccome il primo numero era più grande l'ho diviso per il secondo, il risultato è: " +
+                    (num1 / num2));
+
+        } else {
+            System.out.println("Siccome il primo numero era più piccolo l'ho moltiplicato per il secondo, il risultato è: " +
+                    (num1 * num2));
+        }
 
 //        ------------------ESERCIZIO1--------------
 
